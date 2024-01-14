@@ -5,9 +5,7 @@
 // const path = require("path")
 
 const app = express()
-app.use(express.static('./public'))
-app.use(express.static('./views'))
-app.get('/',(req,res)=>{
-    res.sendFile(path.resolve('./views/index.html'))
-})
+app.use('/',express.static('./public'))
+app.use('/',express.static('./views'))
+
 app.listen(5000,()=>console.log('listen at 5000'))
