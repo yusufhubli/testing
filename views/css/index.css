@@ -1,0 +1,14 @@
+body{
+    padding: 50px;
+
+}
+
+h1{
+    background-color: aqua;
+    color: black;
+}
+button{
+    padding: 5px 20px ;
+    font-weight: 600;
+    font-size: 16px;
+}
