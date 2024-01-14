@@ -5,7 +5,7 @@
 // const path = require("path")
 
 const app = express()
-app.use('/',express.static('./public'))
-app.use('/',express.static('./views'))
+app.use(express.static('./public'))
+app.use(express.static('./views'))
 
 app.listen(5000,()=>console.log('listen at 5000'))
